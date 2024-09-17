@@ -1,9 +1,14 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .header,
-.footer{
+.footer,
+.hero-section{
     background-color: #1F2937;
 }
 
@@ -11,7 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 16px;
+    padding: 0px 200px;
 }
 
 ul{
@@ -29,4 +34,43 @@ a{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
+}
+
+.hero-section{
+    flex: 1;
+    display: flex;
+    padding: 50px 200px;
+}
+
+.hero-left{
+    flex: 1;
+}
+
+.hero-image{
+    flex: 1;
+    background-color: gray;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.text{
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 4px 24px;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: #3882f6;
+    border-radius: 7px;
+}
+
+.hero-section button{
+    border: solid #3882f6;;
 }
