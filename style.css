@@ -40,6 +40,7 @@ a{
     flex: 1;
     display: flex;
     padding: 50px 200px;
+    justify-content: space-between;
 }
 
 .hero-left{
@@ -47,8 +48,10 @@ a{
 }
 
 .hero-image{
-    flex: 1;
+    flex: 0 0 auto;
     background-color: gray;
+    height: 600px;
+    width: 600px;
 }
 
 .hero-main-text{
