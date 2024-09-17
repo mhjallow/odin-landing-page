@@ -70,8 +70,10 @@ button{
     color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    font-size: 20px;
     background-color: #3882f6;
     border-radius: 7px;
+    width: 150px;
 }
 
 .hero-section button{
@@ -139,4 +141,26 @@ img{
     font-weight: bold;
     align-self: flex-end;
     font-size: 24px;
+}
+
+.call-to-action{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    margin: 100px 200px;
+    border-radius: 10px;
+    padding: 50px 75px;
+}
+
+.call-main-text{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to-action button{
+    border: solid 2px white;
+    flex: 0 0 auto;
+    align-self: center;
 }
