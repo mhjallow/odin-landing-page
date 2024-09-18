@@ -1,5 +1,5 @@
 # odin-landing-page
-Repository for the Odin Project's 'Landing Page' Assignment
+Repository for the Odin Project's 'Landing Page' Assignment <br />
 
 Logo credit: arfmdn99 on freepik: https://www.freepik.com/free-vector/hippo-mascot-logo_43932522.htm
 
