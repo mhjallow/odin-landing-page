@@ -29,26 +29,15 @@ a{
 }
 
 .header-logo{
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 900;
+    height: 100px;
+    width: 100px;
 }
 
 .hero-section{
     display: flex;
     padding: 50px 200px;
     justify-content: space-between;
-}
-
-.hero-left{
-    flex: 1;
-}
-
-.hero-image{
-    flex: 0 0 auto;
-    background-color: gray;
-    height: 350px;
-    width: 350px;
+    gap: 100px;
 }
 
 .hero-main-text{
@@ -71,6 +60,7 @@ button{
     background-color: #3882f6;
     border-radius: 7px;
     width: 150px;
+    cursor: pointer;
 }
 
 .hero-section button{
@@ -92,9 +82,9 @@ button{
 }
 
 .info-container{
-    flex: 1;
+    min-width: 1000px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-evenly;
     text-align: center;
 
@@ -104,11 +94,12 @@ button{
     display: flex;
     flex-direction: column;
     width: 150px;
+    align-items: center;
 }
 
-img{
-    height: 150px;
-    width: 150px;
+.info img{
+    height: 200px;
+    width: 200px;
     border: 2px solid #3882f6;
     border-radius: 10px;
 }
